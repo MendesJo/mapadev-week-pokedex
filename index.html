@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex - MapaDev Week</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/imagens/pokedex.png" type="image/x-icon">
+  </head> 
+  <body>
+    <main>
+      <div class="pokedex">
+        <div class="cartoes-pokemon">
+          <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-Pikachu">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Pikachu</h2>
+                <span>#025</span>
+              </div>
+
+              <span class="tipo">Elétrico</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/25 - pikachu.png" alt="Imagem do pikachu" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 300</li>
+                  <li>Total: 1700</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+                
+                <ul>
+                  <li>Choque do trovão</li>
+                  <li>Cabeçada</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-grama" id="cartao-Bulbasaur">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Bulbasaur</h2>
+                <span>#001</span>
+              </div>
+              
+              <span class="tipo">Grama/Venenoso</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/01 - bulbasaur.png" alt="Imagem do Bulbasaur" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 400</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 300</li>
+                  <li>Total: 1700</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Chicote de Vinha</li>
+                  <li>Folha Navalha</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-grama" id="cartao-Yvisaur">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Yvisaur</h2>
+                <span>#002</span>
+              </div>
+              
+              <span class="tipo">Grama/Venenoso</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/02 - Yvisaur.png" alt="Imagem do Yvisaur" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 500</li>
+                  <li>Ataque: 750</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 500</li>
+                  <li>Total: 2150</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Chicote de Vinha</li>
+                  <li>Folha Navalha</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-grama" id="cartao-Venusaur">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Venusaur</h2>
+                <span>#003</span>
+              </div>
+              
+              <span class="tipo">Grama/Venenoso</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/03 - venusaur.png" alt="Imagem do Venusaur" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 900</li>
+                  <li>Ataque: 1000</li>
+                  <li>Defesa: 900</li>
+                  <li>Velocidade: 500</li>
+                  <li>Total: 3300</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Raio Solar</li>
+                  <li>Folha Navalha</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-fogo" id="cartao-Charmander">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charmander</h2>
+                <span>#004</span>
+              </div>
+              
+              <span class="tipo">Fogo</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/04 - charmander.png" alt="Imagem do charmander" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 300</li>
+                  <li>Total: 1700</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Lança chamas</li>
+                  <li>Arranhão</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-fogo" id="cartao-Charmeleon">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charmeleon</h2>
+                <span>#005</span>
+              </div>
+              
+              <span class="tipo">Fogo</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/05 - charmeleon.png" alt="Imagem do Charmeleon" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 500</li>
+                  <li>Ataque: 800</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 2200</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Lança chamas</li>
+                  <li>Arranhão</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-fogo" id="cartao-Charizard">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charizard</h2>
+                <span>#006</span>
+              </div>
+              
+              <span class="tipo">Fogo/Voador</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/06 - charizard.png" alt="Imagem do Charizard" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 800</li>
+                  <li>Ataque: 1000</li>
+                  <li>Defesa: 700</li>
+                  <li>Velocidade: 1000</li>
+                  <li>Total: 3500</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Lança chamas</li>
+                  <li>Raiva</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-agua" id="cartao-Squirtle">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Squirtle</h2>
+                <span>#007</span>
+              </div>
+              
+              <span class="tipo">Água</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/07 - squietle.png" alt="Imagem do Squirtle" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 500</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 1700</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Jato de Água</li>
+                  <li>Cabeçada</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-agua" id="cartao-Wartortle">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Wartortle</h2>
+                <span>#008</span>
+              </div>
+              
+              <span class="tipo">Água</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/08 - wartortle.png" alt="Imagem do Wartortle" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 600</li>
+                  <li>Ataque: 700</li>
+                  <li>Defesa: 800</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 2500</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Jato de Água</li>
+                  <li>Bolhas</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="cartao-pokemon tipo-agua" id="cartao-Blastoise">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Blastoise</h2>
+                <span>#009</span>
+              </div>
+              
+              <span class="tipo">Água</span>
+
+              <div class="cartao-imagem">
+                <img src="src/imagens/09 - blastoise.png" alt="Imagem do Blastoise" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 1000</li>
+                  <li>Ataque: 1000</li>
+                  <li>Defesa: 700</li>
+                  <li>Velocidade: 700</li>
+                  <li>Total: 3400</li>
+                </ul>
+              </div>
+
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Mordida</li>
+                  <li>Hidro Bomba</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+
+        <nav class="listagem">
+            <ul>
+                <li class="pokemon ativo" id="Pikachu">
+                    <img src="src/imagens/25 - cabeca-pikachu.png" alt="cabeça do Pikachu">
+                    <span>Pikachu</span>
+                    <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Bulbasaur">
+                    <img src="src/imagens/01 - cabeca-bulbasaur.png" alt="cabeça do Bulbasaur">
+                    <span>Bulbasaur</span>
+                    <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Yvisaur">
+                  <img src="src/imagens/02 - cabeca-yvisaur.png" alt="cabeça do Yviasaur">
+                  <span>Yvisaur</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Venusaur">
+                  <img src="src/imagens/03 - cabeca-venusaur.png" alt="cabeça do Venusaur">
+                  <span>Venusaur</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Charmander">
+                    <img src="src/imagens/04 - cabeca-charmander.png" alt="cabeça do Charmander">
+                    <span>Charmander</span>
+                    <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Charmeleon">
+                  <img src="src/imagens/05 - charmeleon.png" alt="cabeça do Charmeleon">
+                  <span>Charmeleon</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Charizard">
+                  <img src="src/imagens/06 - cabeca-charizard.png" alt="cabeça do Charizard">
+                  <span>Charizard</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Squirtle">
+                  <img src="src/imagens/07 - cabeca-squietle.png" alt="cabeça do Squirtle">
+                  <span>Squirtle</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Wartortle">
+                  <img src="src/imagens/08 - cabeca-wartortle.png" alt="cabeça do Wartortle">
+                  <span>Wartortle</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+                <li class="pokemon" id="Blastoise">
+                  <img src="src/imagens/09 - cabeca-blastoise.png" alt="cabeça do Blastoise">
+                  <span>Blastoise</span>
+                  <img src="src/imagens/pokebola-closed.png" class="pokebola">
+                </li>
+      
+            </ul>
+        </nav>
+      </div>
+    </main>
+    <footer>
+
+      <a href="https://github.com/MendesJo" target="_blank"><img src="src/imagens/github.png"/></a>
+      <p class="signature">©️Copyright Jorge Mendes</p>
+      <p class="devemdobro">Site replicado de <a href="https://www.youtube.com/channel/UCGXiaSPSmORM_4_b05kfMlg" target="_blank">DevemDobro</a></p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
